@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>LITERA</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" type="text/css" href="vxod.css">
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="main">      
+        <input type="checkbox" id="chk" aria-hidden="true">
+
+            <div class="signup">
+                    <form method="post" action="connectvxod.php">
+                    <label for="chk" aria-hidden="true">Регистрация</label>
+                    <input type="text" name="name" placeholder="Имя" required="">
+                    <input type="email" name="adres" placeholder="Электронный адрес" required="">
+                    <input type="password" name="parol" placeholder="Пароль" required="">
+                         <button class="app-form-button" type="submit" name="popavxod" value="ОТПРАВИТЬ">Войти</button>
+             
+                </form>
+            </div>
+
+            <div class="login">
+                <form method="post" action="connectvxod2.php">
+                    <label for="chk" aria-hidden="true">Вход</label>
+                    <input type="email" name="name" placeholder="Электронный адрес" required="">
+                    <input type="password" name="text" placeholder="Пароль" required="">
+                     <button class="app-form-button" type="submit" name="popavxod2" value="ОТПРАВИТЬ">Войти</button>
+                </form>
+            </div>
+    </div>
+</form>
+</body>
+</html>
